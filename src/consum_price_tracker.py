@@ -150,18 +150,19 @@ def process_product(p):
 
 def fetch_all_products():
     """
-    Pagina /catalog/product con currentPage + pageSize.
-    Termina cuando la API devuelve hasMore = False.
-    Con 9096 productos y pageSize=100 → ~91 páginas.
+    Pagina /catalog/product con currentPage.
+    NOTA: la API ignora pageSize y devuelve ~20 productos fijos por página.
+    Se para cuando:
+      - no hay más productos en la respuesta
+      - hasMore == False
+      - total_seen >= totalCount (límite de seguridad anti-bucle infinito)
     """
-    page       = 0
-    total_seen = 0
+    page        = 0
+    total_seen  = 0
+    total_count = None   # se rellena en la primera respuesta
 
     while True:
-        params = {
-            "currentPage": page,
-            "pageSize":    PAGE_SIZE,
-        }
+        params = {"currentPage": page}
         print(f"\n📄 Página {page} ({total_seen} procesados hasta ahora)...")
 
         response = safe_get(f"{BASE_URL}/catalog/product", params=params)
@@ -172,19 +173,30 @@ def fetch_all_products():
         data     = response.json()
         products = data.get("products", [])
 
+        # Guardar totalCount en la primera página
+        if total_count is None:
+            total_count = data.get("totalCount", 0)
+            print(f"📊 Total de productos según API: {total_count}")
+
         if not products:
-            print("✅ Sin más productos.")
+            print("✅ Sin más productos en esta página.")
             break
 
         for p in products:
             process_product(p)
 
         total_seen += len(products)
-        total_count = data.get("totalCount", "?")
         print(f"   → {len(products)} procesados | acumulado: {total_seen} / {total_count}")
 
+        # ── Condiciones de parada ──────────────────────────────────────────
+        # 1. La API dice que no hay más
         if not data.get("hasMore", False):
-            print(f"\n✅ Última página alcanzada. Total: {total_seen} productos.")
+            print(f"\n✅ hasMore=False. Total: {total_seen} productos.")
+            break
+
+        # 2. Seguridad: ya procesamos al menos todos los productos del totalCount
+        if total_count and total_seen >= total_count:
+            print(f"\n✅ Alcanzado totalCount ({total_count}). Deteniendo.")
             break
 
         page += 1
