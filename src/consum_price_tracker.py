@@ -150,20 +150,32 @@ def process_product(p):
 
 def fetch_all_products():
     """
-    Pagina /catalog/product con currentPage.
-    NOTA: la API ignora pageSize y devuelve ~20 productos fijos por página.
-    Se para cuando:
-      - no hay más productos en la respuesta
+    Pagina /catalog/product usando los parámetros reales de la API:
+      page    → número de página (empieza en 1)
+      limit   → productos por página (20 fijo por la API)
+      offset  → page * limit
+      orderById=5 y showProducts=true son obligatorios
+
+    Para cuando:
+      - la lista de productos viene vacía
       - hasMore == False
-      - total_seen >= totalCount (límite de seguridad anti-bucle infinito)
+      - total_seen >= totalCount (seguridad anti-bucle)
     """
-    page        = 0
+    LIMIT       = 20   # la API devuelve 20 fijos, no acepta más
+    page        = 1
+    offset      = 0
     total_seen  = 0
-    total_count = None   # se rellena en la primera respuesta
+    total_count = None
 
     while True:
-        params = {"currentPage": page}
-        print(f"\n📄 Página {page} ({total_seen} procesados hasta ahora)...")
+        params = {
+            "page":         page,
+            "limit":        LIMIT,
+            "offset":       offset,
+            "orderById":    5,
+            "showProducts": "true",
+        }
+        print(f"\n📄 Página {page} | offset {offset} ({total_seen} procesados)...")
 
         response = safe_get(f"{BASE_URL}/catalog/product", params=params)
         if response is None:
@@ -173,13 +185,12 @@ def fetch_all_products():
         data     = response.json()
         products = data.get("products", [])
 
-        # Guardar totalCount en la primera página
         if total_count is None:
             total_count = data.get("totalCount", 0)
-            print(f"📊 Total de productos según API: {total_count}")
+            print(f"📊 Total según API: {total_count} productos (~{-(-total_count // LIMIT)} páginas)")
 
         if not products:
-            print("✅ Sin más productos en esta página.")
+            print("✅ Lista vacía, no hay más productos.")
             break
 
         for p in products:
@@ -188,18 +199,17 @@ def fetch_all_products():
         total_seen += len(products)
         print(f"   → {len(products)} procesados | acumulado: {total_seen} / {total_count}")
 
-        # ── Condiciones de parada ──────────────────────────────────────────
-        # 1. La API dice que no hay más
+        # Condiciones de parada
         if not data.get("hasMore", False):
-            print(f"\n✅ hasMore=False. Total: {total_seen} productos.")
+            print(f"\n✅ hasMore=False. Total final: {total_seen} productos.")
             break
 
-        # 2. Seguridad: ya procesamos al menos todos los productos del totalCount
         if total_count and total_seen >= total_count:
             print(f"\n✅ Alcanzado totalCount ({total_count}). Deteniendo.")
             break
 
-        page += 1
+        page   += 1
+        offset += LIMIT
         time.sleep(SLEEP_REQ)
 
 # ── EXPORT CSV ────────────────────────────────────────────────────────────────
