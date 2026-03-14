@@ -1,0 +1,165 @@
+name: Scheduled run (Consum Price Tracker)
+
+on:
+  schedule:
+    - cron: '0 7 * * *'    # ~09:00 Madrid en verano (UTC+2)
+    - cron: '0 19 * * *'   # ~21:00 Madrid en verano (UTC+2)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: consum-tracker
+  cancel-in-progress: true
+
+jobs:
+  run-tracker:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Madrid
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "requirements.txt no encontrado, instalando mínimos..."
+            pip install requests
+          fi
+
+      - name: Prepare folders
+        run: |
+          mkdir -p data
+          mkdir -p data_public
+          mkdir -p /tmp/prev
+
+      - name: Restore database from repo
+        run: |
+          if [ -f data/consum_prices.db ]; then
+            echo "✓ Base de datos encontrada en el repositorio"
+            ls -lh data/consum_prices.db
+          else
+            echo "⚠ No existe BD previa, se creará una nueva"
+          fi
+
+      - name: Save previous history CSV (if any)
+        run: |
+          git show HEAD:data_public/price_history.csv > /tmp/prev/price_history.csv || true
+
+      - name: Run tracker (do not fail job)
+        shell: bash
+        run: |
+          set +e
+          python -u src/consum_price_tracker.py
+          EXIT=$?
+          echo "::notice title=Tracker exit code::$EXIT"
+          # Si el script no generó CSVs, crea placeholders con cabeceras
+          if [ ! -f data_public/products.csv ]; then
+            echo "id,name,brand,last_price,unit_size,category,image_url,last_update" > data_public/products.csv
+          fi
+          if [ ! -f data_public/price_history.csv ]; then
+            echo "id,product_id,name,old_price,new_price,change_date" > data_public/price_history.csv
+          fi
+          exit 0
+
+      - name: Merge previous and new history CSV
+        run: |
+          python - << 'PY'
+          import csv, os
+
+          old_path = "/tmp/prev/price_history.csv"
+          new_path = "data_public/price_history.csv"
+          out_path = "data_public/price_history.csv"
+          HEADERS  = ["id", "product_id", "name", "old_price", "new_price", "change_date"]
+
+          def load_rows(path):
+              rows = []
+              if not os.path.exists(path) or os.path.getsize(path) == 0:
+                  return rows
+              with open(path, encoding="utf-8") as f:
+                  for row in csv.DictReader(f):
+                      rows.append({
+                          "id":          row.get("id", ""),
+                          "product_id":  row.get("product_id", ""),
+                          "name":        row.get("name", ""),
+                          "old_price":   row.get("old_price", ""),
+                          "new_price":   row.get("new_price", ""),
+                          "change_date": row.get("change_date", ""),
+                      })
+              return rows
+
+          old_rows = load_rows(old_path)
+          new_rows = load_rows(new_path)
+
+          seen   = set()
+          merged = []
+          # Dedupe por clave estable (product_id + old_price + new_price + change_date)
+          for row in old_rows + new_rows:
+              key = (row["product_id"], row["old_price"], row["new_price"], row["change_date"])
+              if key in seen:
+                  continue
+              seen.add(key)
+              merged.append(row)
+
+          # Ordenar y reasignar IDs correlativos
+          merged.sort(key=lambda x: (x["change_date"], x["name"]))
+          for i, row in enumerate(merged, start=1):
+              row["id"] = str(i)
+
+          os.makedirs(os.path.dirname(out_path), exist_ok=True)
+          with open(out_path, "w", newline="", encoding="utf-8") as f:
+              w = csv.DictWriter(f, fieldnames=HEADERS)
+              w.writeheader()
+              for row in merged:
+                  w.writerow(row)
+
+          print(f"✔ Filas en historial mergeado: {len(merged)}")
+          PY
+
+      - name: List outputs (debug)
+        if: always()
+        run: |
+          echo "=== Raíz ==="
+          ls -la
+          echo "=== data_public/ ==="
+          ls -la data_public || true
+          echo "=== data/ ==="
+          ls -la data || true
+          echo "=== Primeras líneas products.csv ==="
+          head -3 data_public/products.csv || true
+          echo "=== Primeras líneas price_history.csv ==="
+          head -3 data_public/price_history.csv || true
+
+      - name: Commit database and CSV exports
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain data data_public)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data data_public
+            git commit -m "ci: update consum database and CSV exports [skip ci]" || echo "Nada que commitear"
+            git push || echo "Nada que pushear"
+          else
+            echo "Sin cambios en data/ ni data_public/"
+          fi
+
+      - name: Upload CSV artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: consum-csv
+          path: data_public
+          if-no-files-found: warn
+          retention-days: 30
