@@ -8,3 +8,82 @@ id,product_id,name,old_price,new_price,change_date
 7,32299,Café Colombia 20 Cápsulas,3.85,3.8,2026-03-16 09:10:05
 8,32443,Café Descafeinado 20 cápsulas,3.8,3.85,2026-03-16 09:10:06
 9,34266,"Ginebra 0,0",14.25,13.45,2026-03-16 09:10:15
+10,5709,Aceitunas Rellenas Anchoa Cantábrico Lata,2.35,2.39,2026-03-17 08:53:19
+11,4705,Tomate Pera,0.26,0.28,2026-03-17 08:53:48
+12,4902,Cerveza Extra Lata,1.06,1.03,2026-03-17 08:53:50
+13,5210,Aceitunas Manzanilla sin Hueso  Bolsa,0.95,0.98,2026-03-17 08:53:53
+14,5197,Filete Primera A de Añojo Plancha,6.28,6.46,2026-03-17 08:53:53
+15,5351,Galletas Integrales Marie Lu,3.75,3.85,2026-03-17 08:53:54
+16,5849,Caramelo Eucalipto Menta Pack de 4,2.95,2.99,2026-03-17 08:53:59
+17,5850,Caramelos Cítricos Vita C sin Azúcar,2.95,2.99,2026-03-17 08:53:59
+18,5980,Philadelphia Light Tarrina,2.54,2.59,2026-03-17 08:54:00
+19,6196,Galletas de Cacao Rellenas de Crema,1.6,1.7,2026-03-17 08:54:01
+20,6153,Philadelphia Natural Tarrina,2.54,2.59,2026-03-17 08:54:01
+21,7216,Galleta Mikado con Chocoleche,2.25,2.3,2026-03-17 08:54:08
+22,8260,Aceitunas Manzanilla con Hueso Bolsa,0.95,0.98,2026-03-17 08:54:12
+23,8125,Galleta Rellena de Crema Golden,1.6,1.7,2026-03-17 08:54:12
+24,9324,Galleta Principe Estrella,2.75,2.95,2026-03-17 08:54:18
+25,9765,Galletas Principe Estrella con Chocolate Blanco,2.75,2.95,2026-03-17 08:54:21
+26,9783,Galletas Príncipe Maxi Choc,2.55,2.75,2026-03-17 08:54:21
+27,10027,Aceitunas Sabor Anchoa con Hueso en Lata,1.99,2.09,2026-03-17 08:54:22
+28,10778,Queso Lonchas,1.69,1.85,2026-03-17 08:54:25
+29,11447,Licor Cointreau,18.85,19.25,2026-03-17 08:54:27
+30,11480,Tequila Especial Oro,16.9,15.2,2026-03-17 08:54:27
+31,11493,Aperitivo de Anís,12.8,11.95,2026-03-17 08:54:28
+32,12378,Entrecot de Novillo Argentino,13.06,14.56,2026-03-17 08:54:31
+33,12368,Pata de Vacuno,2.63,2.74,2026-03-17 08:54:31
+34,12491,Esponja Limpiacalzado,0.55,0.65,2026-03-17 08:54:32
+35,13511,Costilla de Añojo,4.4,4.63,2026-03-17 08:54:37
+36,14219,Colutorio Bucal,8.75,8.99,2026-03-17 08:54:38
+37,14220,Colutorio Bucal Oro,10.85,11.29,2026-03-17 08:54:38
+38,14253,Pasta Dental Duplo,10.85,11.35,2026-03-17 08:54:39
+39,14568,Discos Desmaquillantes Redondos,0.84,0.8,2026-03-17 08:54:40
+40,14738,Discos Ovalados,1.2,1.12,2026-03-17 08:54:40
+41,15523,Sardina,5.95,6.95,2026-03-17 08:54:43
+42,16011,Queso Fundido Lonchas sin Lactosa,2.45,2.65,2026-03-17 08:54:45
+43,17052,Galleta Mikado Chocolate Negro,2.25,2.3,2026-03-17 08:54:47
+44,18109,Filetes Redondo Añojo Plancha-Empanar,7.54,7.7,2026-03-17 08:54:50
+45,18991,Carbón Vegetal Premium Bolsa,3.99,4.25,2026-03-17 08:54:52
+46,19621,Añojo para Guisar,18.65,18.95,2026-03-17 08:54:54
+47,19623,Babilla Añojo,6.65,6.95,2026-03-17 08:54:54
+48,19614,Entrecot de Novillo Argentino,6.49,7.24,2026-03-17 08:54:54
+49,19615,Filete Solomillo de Añojo,7.09,7.24,2026-03-17 08:54:54
+50,19624,Filete Solomillo de Ternera Gallega,8.58,8.73,2026-03-17 08:54:54
+51,19622,Lomo Entrecot de Ternera Gallega,10.75,11.1,2026-03-17 08:54:54
+52,21584,Galleta Digestive Finas Chocolate Negro,2.8,2.95,2026-03-17 08:54:59
+53,21733,Galleta Digestive Finas Chocolate con Leche,2.8,2.95,2026-03-17 08:54:59
+54,27369,Caramelo Eucalipto Mentol sin Azúcar,1.95,1.99,2026-03-17 08:55:18
+55,27371,Piña en su Jugo Quality,3.99,4.29,2026-03-17 08:55:18
+56,27447,Piña en su Jugo Quality Pack de 3,4.65,4.95,2026-03-17 08:55:18
+57,27646,Chuleta Vaca Madurada,9.08,9.23,2026-03-17 08:55:19
+58,31218,Caramelo Extrafuerte sin Azúcar,1.95,1.99,2026-03-17 08:55:33
+59,31512,Insecticida Casa Jardín Rosas,3.99,4.09,2026-03-17 08:55:34
+60,31781,Estofado de Añojo,7.46,7.58,2026-03-17 08:55:36
+61,32060,Filete Extra Añojo,4.79,4.92,2026-03-17 08:55:38
+62,32204,Filete Tierno de Ternera Gallega,3.91,4.02,2026-03-17 08:55:38
+63,32203,Filete muy Tierno de Ternera Gallega,8.48,8.77,2026-03-17 08:55:38
+64,32266,Pasta Encías Delicadas Duplo,12.75,13.49,2026-03-17 08:55:38
+65,32183,Pasta Junior Fresa Fluor + Calcio  Tubo,4.75,4.99,2026-03-17 08:55:38
+66,32267,Pasta Triple Acción Duplo,13.95,14.35,2026-03-17 08:55:38
+67,32323,Colutorio Enjuague Bucal Botella,9.45,9.75,2026-03-17 08:55:39
+68,32477,Galleta Mini Wafers,2.45,2.6,2026-03-17 08:55:40
+69,32653,Philadelphia Vegetal 100% Vegano,3.1,3.15,2026-03-17 08:55:41
+70,32553,Solomillo de Añojo,14.62,14.7,2026-03-17 08:55:41
+71,33064,Nuez Cáscara Nacional Malla,3.29,3.15,2026-03-17 08:55:43
+72,33907,Cepillo Medio,4.79,4.95,2026-03-17 08:55:48
+73,33908,Cepillo Suave,4.55,4.95,2026-03-17 08:55:48
+74,34171,Galleta Mikado Chocolate Blanco,2.25,2.3,2026-03-17 08:55:50
+75,34715,Barquillos Finas Relleno Chocolate Negro,1.8,1.95,2026-03-17 08:55:53
+76,39443,Nuez Grano Nacional Doypack,2.29,1.99,2026-03-17 08:56:00
+77,39559,Galletas la Buena María,2.99,3.35,2026-03-17 08:56:01
+78,43073,Galleta Digestive Manzana y Avena,1.0,1.15,2026-03-17 08:56:04
+79,43259,Barrita Chocolate Leche Con Miel  y Almendras,3.45,3.75,2026-03-17 08:56:05
+80,43506,Galletas de Cacao Rellenas de Crema,3.45,3.6,2026-03-17 08:56:06
+81,43444,Queso Brillat Savarin IGP Leche Cruda de Vaca,3.99,4.29,2026-03-17 08:56:06
+82,43734,Cepillo Interdental Angular,5.4,5.62,2026-03-17 08:56:07
+83,43733,Colutorio,17.95,18.78,2026-03-17 08:56:07
+84,43732,Pasta LacerBlanc Menta,7.45,7.6,2026-03-17 08:56:07
+85,43535,Philadelpia Natural Monodosis,1.8,1.85,2026-03-17 08:56:07
+86,44101,Licor,17.9,18.45,2026-03-17 08:56:10
+87,44026,Lomo de Añojo,8.21,8.56,2026-03-17 08:56:10
+88,45378,Champú Pilexil Triple,18.85,19.45,2026-03-17 08:56:20
