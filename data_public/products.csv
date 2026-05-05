@@ -1320,7 +1320,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 5099,Cacao en Polvo a la Taza,VALOR,4.1,1 Kg,Chocolate a la taza,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/583096.jpg?t=20260331080845,Dulces y Postres,,,2026-03-31 22:24:10
 4917,Cacao Instantáneo,NESQUIK,4.2,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/348235.jpg?t=20260408082919,Otros,3.69,Ahora más barato,2026-04-13 22:09:08
 13564,Cacao Instantáneo,CONSUM,4.69,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7252489.jpg?t=20260331081029,Otros,,,2026-03-31 22:24:55
-4689,Cacao Instantáneo Bolsa,NESQUIK,7.5,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/33274.jpg?t=20260428081629,Otros,6.4,Ahora más barato,2026-05-04 22:20:14
+4689,Cacao Instantáneo Bolsa,NESQUIK,7.5,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/33274.jpg?t=20260428081629,Otros,6.4,Ahora más barato,2026-05-05 11:06:15
 12265,Cacao Instantáneo Caja,NESQUIK,17.45,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7266711.jpg?t=20260324080447,,,,2026-03-26 09:02:45
 9730,Cacao Instantáneo Turbo,COLA CAO,4.99,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3287273.jpg?t=20260331080852,Otros,,,2026-03-31 22:24:39
 6256,Cacao Puro en Polvo sin Azúcar,VALOR,7.4,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7114630.jpg?t=20260408083045,Otros,6.29,Ahora más barato,2026-04-08 21:59:53
@@ -4028,7 +4028,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 7543,Garrofón,CONSUM,1.32,1 Kg,Otras verduras,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7220676.jpg?t=20250923081549,Frutas y Verduras,,,2026-03-31 22:24:29
 12786,Garrofón Seco Malla,,2.95,1 Kg,"Judías, habas y otras legumbres",https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/998211.jpg?t=20260210081653,"Pasta, Arroz y Legumbres",,,2026-03-31 22:24:52
 7624,Gasas no Tejidas Ojos y Manos,BEL BABY,2.0,1 U,Complementos higiene,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7225030.jpg?t=20260331081016,Higiene Personal,,,2026-03-31 22:24:29
-4688,Gaseosa Botella,LA CASERA,0.86,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/27102.jpg?t=20260428081629,Otros,,,2026-05-04 22:20:14
+4688,Gaseosa Botella,LA CASERA,0.86,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/27102.jpg?t=20260505075924,Otros,,,2026-05-05 11:06:15
 5513,Gaseosa Botella,CONSUM,0.55,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7032639.jpg?t=20260331080900,Otros,,,2026-03-31 22:24:14
 5514,Gaseosa Botella,CONSUM,0.34,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7032642.jpg?t=20260331080900,Otros,,,2026-03-31 22:24:14
 34851,Gaseosa Hierbabuena Lata,LA CASERA,0.66,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7440832.jpg?t=20260331081357,Otros,,,2026-03-31 22:26:09
@@ -4891,7 +4891,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 23620,Leche Desnatada Botella,CONSUM,1.47,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7344778.jpg?t=20260331081133,Otros,,,2026-03-31 22:25:22
 4747,Leche Desnatada Brik,PULEVA,1.1,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/172023.jpg?t=20260326091753,Otros,,,2026-03-31 22:24:07
 5124,Leche Desnatada Brik,ASTURIANA,1.13,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/735340.jpg?t=20260331080846,Otros,,,2026-03-31 22:24:10
-4684,Leche Desnatada Brik,PASCUAL,1.29,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/17525.jpg?t=20260428081629,Otros,1.15,Ahora más barato,2026-05-04 22:20:14
+4684,Leche Desnatada Brik,PASCUAL,1.29,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/17525.jpg?t=20260428081629,Otros,1.15,Ahora más barato,2026-05-05 11:06:15
 5933,Leche Desnatada Brik,CONSUM,0.84,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080612.jpg?t=20260331080920,Otros,,,2026-03-31 22:24:18
 30724,Leche Desnatada Brik,RIO,1.59,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411635.jpg?t=20260226114114,Otros,,,2026-03-31 22:25:47
 32545,Leche Desnatada Sin Lactosa Proteína,PULEVA,1.49,1 L,Leches especiales,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7425957.jpg?t=20260331081330,Lacteos,,,2026-03-31 22:25:56
@@ -4903,7 +4903,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 23553,Leche Entera Botella,CONSUM,1.56,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7344773.jpg?t=20260331081133,Otros,,,2026-03-31 22:25:21
 4741,Leche Entera Brik,PULEVA,1.19,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/157388.jpg?t=20260326091737,Otros,,,2026-03-31 22:24:07
 5126,Leche Entera Brik,ASTURIANA,1.29,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/735423.jpg?t=20260331080846,Otros,,,2026-03-31 22:24:10
-4680,Leche Entera Brik,PASCUAL,1.39,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12559.jpg?t=20260428081629,Otros,1.29,Ahora más barato,2026-05-04 22:20:14
+4680,Leche Entera Brik,PASCUAL,1.39,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12559.jpg?t=20260428081629,Otros,1.29,Ahora más barato,2026-05-05 11:06:15
 5931,Leche Entera Brik,CONSUM,0.97,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080596.jpg?t=20260331080920,Otros,,,2026-03-31 22:24:18
 30766,Leche Entera Brik,RIO,1.75,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411643.jpg?t=20260331081241,Otros,,,2026-03-31 22:25:47
 7947,Leche Entera Ecológica Brik,PULEVA,1.55,1 L,Despensa,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7241011.jpg?t=20260226105929,Otros,,,2026-03-31 22:24:30
@@ -4930,7 +4930,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 23554,Leche Semidesnatada Botella,CONSUM,1.5,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7344781.jpg?t=20260331081133,Otros,,,2026-03-31 22:25:21
 4753,Leche Semidesnatada Brik,PULEVA,1.13,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/176974.jpg?t=20260326091804,Otros,,,2026-03-31 22:24:07
 5125,Leche Semidesnatada Brik,ASTURIANA,1.17,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/735399.jpg?t=20260331080846,Otros,,,2026-03-31 22:24:10
-4679,Leche Semidesnatada Brik,PASCUAL,1.35,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12542.jpg?t=20260428081628,Otros,1.22,Ahora más barato,2026-05-04 22:20:14
+4679,Leche Semidesnatada Brik,PASCUAL,1.35,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12542.jpg?t=20260428081628,Otros,1.22,Ahora más barato,2026-05-05 11:06:15
 5932,Leche Semidesnatada Brik,CONSUM,0.88,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080604.jpg?t=20260331080920,Otros,,,2026-03-31 22:24:18
 30725,Leche Semidesnatada Brik,RIO,1.65,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411648.jpg?t=20260331081241,Otros,,,2026-03-31 22:25:47
 6644,"Leche Semidesnatada Ecólogica, Brik",PULEVA,1.55,1 L,Despensa,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7164643.jpg?t=20260226104734,Otros,,,2026-03-31 22:24:23
@@ -8661,7 +8661,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 31197,Tortillas de Maíz 10 Unidades,CONSUM,2.09,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7392256.jpg?t=20260331081215,Otros,,,2026-03-31 22:25:49
 31187,Tortillas de Maíz y Trigo de Trigo. 8 Unidades,OLD EL PASO,3.21,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7414951.jpg?t=20260331081248,Otros,,,2026-03-31 22:25:49
 9940,Tortillas de Trigo Integrales 6 Unidades,OLD EL PASO,2.99,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7226496.jpg?t=20260331081016,Otros,,,2026-03-31 22:24:41
-4699,Tortillas de Trigo Paquete 8 Unidades,OLD EL PASO,1.99,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/53553.jpg?t=20260428081630,Otros,1.69,Ahora más barato,2026-05-04 22:20:14
+4699,Tortillas de Trigo Paquete 8 Unidades,OLD EL PASO,1.99,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/53553.jpg?t=20260428081630,Otros,1.69,Ahora más barato,2026-05-05 11:06:15
 31243,Tortillas Integrales 8 Unidades,CONSUM,1.25,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7392251.jpg?t=20260331081215,Otros,,,2026-03-31 22:25:50
 30483,Tortillas sin Gluten 6 Unidades,OLD EL PASO,3.21,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7409519.jpg?t=20260331081240,Otros,,,2026-03-31 22:25:46
 31198,Tortillas Wrap de Trigo 6 Unidades,CONSUM,1.5,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7392264.jpg?t=20260331081215,Otros,,,2026-03-31 22:25:49
