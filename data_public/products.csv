@@ -1320,7 +1320,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 5099,Cacao en Polvo a la Taza,VALOR,4.1,1 Kg,Chocolate a la taza,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/583096.jpg?t=20260331080845,Dulces y Postres,,,2026-03-31 22:24:10
 4917,Cacao Instantáneo,NESQUIK,4.2,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/348235.jpg?t=20260408082919,Otros,3.69,Ahora más barato,2026-04-13 22:09:08
 13564,Cacao Instantáneo,CONSUM,4.69,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7252489.jpg?t=20260331081029,Otros,,,2026-03-31 22:24:55
-4689,Cacao Instantáneo Bolsa,NESQUIK,7.5,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/33274.jpg?t=20260629075551,Otros,5.95,Ahora más barato,2026-07-07 22:50:59
+4689,Cacao Instantáneo Bolsa,NESQUIK,7.5,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/33274.jpg?t=20260629075551,Otros,5.95,Ahora más barato,2026-07-08 11:24:18
 12265,Cacao Instantáneo Caja,NESQUIK,17.45,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7266711.jpg?t=20260324080447,,,,2026-03-26 09:02:45
 9730,Cacao Instantáneo Turbo,COLA CAO,4.99,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3287273.jpg?t=20260331080852,Otros,,,2026-03-31 22:24:39
 6256,Cacao Puro en Polvo sin Azúcar,VALOR,7.4,1 Kg,Cacao soluble,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7114630.jpg?t=20260408083045,Otros,6.29,Ahora más barato,2026-04-08 21:59:53
@@ -1413,7 +1413,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 44012,"Café Espresso Splendente, Cápsulas",L'OR,8.15,1 U,Cápsulas sistema Nespresso,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7462620.jpg?t=20260331081450,Otros,6.99,Ahora más barato,2026-03-31 22:24:03
 13881,Café Espresso Tassimo Cápsulas,MARCILLA,5.89,1 U,Cápsulas otros sistemas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7277320.jpg?t=20260408083250,Otros,4.99,Ahora más barato,2026-04-08 22:00:01
 22923,Café Espresso Verona Cápsulas,STARBUCKS,3.99,1 U,Cápsulas sistema Nespresso,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7345429.jpg?t=20260331081133,Otros,,,2026-03-31 22:23:51
-4706,Café Express Molido Mezcla,MARCILLA,5.45,1 Kg,Café Molido natural,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/64170.jpg?t=20260625095527,Bebidas,4.49,Ahora más barato,2026-07-07 22:50:59
+4706,Café Express Molido Mezcla,MARCILLA,5.45,1 Kg,Café Molido natural,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/64170.jpg?t=20260625095527,Bebidas,4.49,Ahora más barato,2026-07-08 11:24:18
 30154,Café Extra Intenso 16 Cápsulas,CONSUM,3.55,1 U,Cápsulas sistema Dolce Gusto,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7404486.jpg?t=20260331081235,Otros,,,2026-03-31 22:25:45
 32297,Café Extra Intenso 20 Cápsulas,CONSUM,3.8,1 U,Cápsulas sistema Nespresso,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7407695.jpg?t=20260331081239,Otros,,,2026-03-31 22:25:54
 9590,Café Granizado Pack de 4 Unidades,MONZO,2.59,1 L,Horchatas y granizados,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7053569.jpg?t=20260331080906,Otros,,,2026-03-31 22:24:39
@@ -4028,7 +4028,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 7543,Garrofón,CONSUM,1.32,1 Kg,Otras verduras,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7220676.jpg?t=20250923081549,Frutas y Verduras,,,2026-03-31 22:24:29
 12786,Garrofón Seco Malla,,2.95,1 Kg,"Judías, habas y otras legumbres",https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/998211.jpg?t=20260210081653,"Pasta, Arroz y Legumbres",,,2026-03-31 22:24:52
 7624,Gasas no Tejidas Ojos y Manos,BEL BABY,2.0,1 U,Complementos higiene,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7225030.jpg?t=20260331081016,Higiene Personal,,,2026-03-31 22:24:29
-4688,Gaseosa Botella,LA CASERA,0.86,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/27102.jpg?t=20260626075657,Otros,,,2026-07-07 22:50:59
+4688,Gaseosa Botella,LA CASERA,0.86,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/27102.jpg?t=20260626075657,Otros,,,2026-07-08 11:24:18
 5513,Gaseosa Botella,CONSUM,0.55,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7032639.jpg?t=20260331080900,Otros,,,2026-03-31 22:24:14
 5514,Gaseosa Botella,CONSUM,0.34,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7032642.jpg?t=20260331080900,Otros,,,2026-03-31 22:24:14
 34851,Gaseosa Hierbabuena Lata,LA CASERA,0.66,1 L,Gaseosas y sodas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7440832.jpg?t=20260331081357,Otros,,,2026-03-31 22:26:09
@@ -8661,7 +8661,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 31197,Tortillas de Maíz 10 Unidades,CONSUM,2.09,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7392256.jpg?t=20260331081215,Otros,,,2026-03-31 22:25:49
 31187,Tortillas de Maíz y Trigo de Trigo. 8 Unidades,OLD EL PASO,3.21,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7414951.jpg?t=20260331081248,Otros,,,2026-03-31 22:25:49
 9940,Tortillas de Trigo Integrales 6 Unidades,OLD EL PASO,2.99,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7226496.jpg?t=20260331081016,Otros,,,2026-03-31 22:24:41
-4699,Tortillas de Trigo Paquete 8 Unidades,OLD EL PASO,1.99,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/53553.jpg?t=20260625095523,Otros,1.69,Ahora más barato,2026-07-07 22:50:59
+4699,Tortillas de Trigo Paquete 8 Unidades,OLD EL PASO,1.99,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/53553.jpg?t=20260625095523,Otros,1.69,Ahora más barato,2026-07-08 11:24:18
 31243,Tortillas Integrales 8 Unidades,CONSUM,1.25,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7392251.jpg?t=20260331081215,Otros,,,2026-03-31 22:25:50
 30483,Tortillas sin Gluten 6 Unidades,OLD EL PASO,3.21,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7409519.jpg?t=20260331081240,Otros,,,2026-03-31 22:25:46
 31198,Tortillas Wrap de Trigo 6 Unidades,CONSUM,1.5,1 Kg,Mexicano,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7392264.jpg?t=20260331081215,Otros,,,2026-03-31 22:25:49
@@ -8761,7 +8761,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 32364,Tónica Pink Zero Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7419831.jpg?t=20260331081318,Otros,,,2026-03-31 22:23:58
 30995,Tónica Toque Lima Botellín Vidrio,SCHWEPPES,1.84,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411593.jpg?t=20260108143753,Otros,,,2026-03-31 22:23:57
 23325,Tónica Zero Botella,SCHWEPPES,2.05,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7347867.jpg?t=20260331081135,Otros,,,2026-03-31 22:25:21
-4724,Tónica Zero Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/113050.jpg?t=20260625095539,Otros,,,2026-07-07 22:50:59
+4724,Tónica Zero Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/113050.jpg?t=20260625095539,Otros,,,2026-07-08 11:24:18
 30401,Tónica Zero Lata,NORDIC MIST,0.67,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7404200.jpg?t=20260226113906,Otros,,,2026-03-31 22:25:46
 28427,Tónico Anticaída Forte,KERZO,7.99,100 ml,Cuidado del cabello,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7391733.jpg?t=20260304083126,Otros,,,2026-03-31 22:25:37
 6597,Tónico Facial con Aloe,KYREY,1.15,100 ml,Limpieza y desmaquilladores,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7163418.jpg?t=20260331080946,Limpieza del Hogar,,,2026-03-31 22:24:23
