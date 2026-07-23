@@ -941,7 +941,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 45527,Bebida Energética Cereza Sin Azúcar Lata,RED BULL,1.59,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7473358.jpg?t=20260331080817,Otros,1.0,Ahora más barato,2026-03-31 22:24:06
 31454,Bebida Energética Full Throttle Zero Lata,MONSTER,1.79,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7417645.jpg?t=20260326105420,Otros,1.45,Ahora más barato,2026-03-31 22:23:57
 6430,Bebida Energética Green Lata,MONSTER,1.45,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7150071.jpg?t=20260408083057,Otros,,,2026-04-08 21:59:54
-4764,Bebida Energética Lata,RED BULL,1.59,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/202986.jpg?t=20260602084448,Otros,,,2026-06-10 23:26:09
+4764,Bebida Energética Lata,RED BULL,1.59,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/202986.jpg?t=20260707075801,Otros,,,2026-07-23 11:22:56
 7228,Bebida Energética Lata,BURN,1.25,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7202737.jpg?t=20260408083145,Otros,,,2026-04-08 21:59:54
 6403,Bebida Energética Lata,RED BULL,2.09,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7146186.jpg?t=20260331080940,Otros,,,2026-03-31 22:24:22
 7561,Bebida Energética Lata,CONTACT,0.4,1 L,Energéticas,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7221005.jpg?t=20260331081014,Otros,,,2026-03-31 22:24:29
@@ -7358,7 +7358,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 31519,Refresco Blue Frutas del Bosque,SUNNY,0.92,1 L,Bebidas refrescantes,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7417504.jpg?t=20260331081312,Bebidas,,,2026-03-31 22:25:51
 5280,Refresco Cola Bipack Indivisible,COCA-COLA,4.1,1 L,Cola,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3278231.jpg?t=20260331080852,Otros,,,2026-03-31 22:24:12
 4717,Refresco Cola Botella,COCA-COLA,1.5,1 L,Cola,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/87528.jpg?t=20260331080831,Otros,,,2026-03-31 22:24:07
-4839,Refresco Cola Botella,COCA-COLA,2.15,1 L,Cola,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/302745.jpg?t=20260602084450,Otros,1.99,Ahora más barato,2026-06-10 23:26:09
+4839,Refresco Cola Botella,COCA-COLA,2.15,1 L,Cola,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/302745.jpg?t=20260602084450,Otros,1.99,Ahora más barato,2026-07-23 11:22:56
 15894,Refresco Cola Botella,COCA-COLA,1.55,1 L,Cola,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7287907.jpg?t=20260331081046,Otros,,,2026-03-31 22:25:01
 19925,Refresco Cola Botella,CONSUM,0.75,1 L,Cola,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7315539.jpg?t=20260331081105,Otros,,,2026-03-31 22:25:12
 27355,Refresco Cola Botella,PEPSI-COLA,1.0,1 L,Cola,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7382331.jpg?t=20260331081208,Otros,,,2026-03-31 22:25:34
@@ -8752,7 +8752,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 29839,Tónica Botella Vidrio,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7402923.jpg?t=20260331081233,Otros,,,2026-03-31 22:23:56
 16197,Tónica Hibiscus Botellín Vidrio,SCHWEPPES,1.84,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7295496.jpg?t=20260108140258,Otros,,,2026-03-31 22:23:48
 32176,Tónica Indian Botella de Cristal,FEVER TREE,1.65,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7423051.jpg?t=20260331081324,Otros,1.25,Ahora más barato,2026-03-31 22:23:58
-4847,Tónica Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303628.jpg?t=20260602084451,Otros,,,2026-06-10 23:26:09
+4847,Tónica Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303628.jpg?t=20260625095641,Otros,,,2026-07-23 11:22:56
 7120,Tónica Lata,SCHWEPPES,0.92,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7197481.jpg?t=20260331081000,Otros,,,2026-03-31 22:24:26
 5422,Tónica Lata,NORDIC MIST,0.67,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7015407.jpg?t=20260331080857,Otros,,,2026-03-31 22:24:14
 6366,Tónica Lata,CONSUM,0.37,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7140879.jpg?t=20260331080939,Otros,,,2026-03-31 22:24:21
@@ -8761,7 +8761,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 32364,Tónica Pink Zero Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7419831.jpg?t=20260331081318,Otros,,,2026-03-31 22:23:58
 30995,Tónica Toque Lima Botellín Vidrio,SCHWEPPES,1.84,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411593.jpg?t=20260108143753,Otros,,,2026-03-31 22:23:57
 23325,Tónica Zero Botella,SCHWEPPES,2.05,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7347867.jpg?t=20260331081135,Otros,,,2026-03-31 22:25:21
-4724,Tónica Zero Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/113050.jpg?t=20260625095539,Otros,,,2026-07-22 22:13:25
+4724,Tónica Zero Lata,SCHWEPPES,0.99,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/113050.jpg?t=20260625095539,Otros,,,2026-07-23 11:22:56
 30401,Tónica Zero Lata,NORDIC MIST,0.67,1 L,Tónica,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7404200.jpg?t=20260226113906,Otros,,,2026-03-31 22:25:46
 28427,Tónico Anticaída Forte,KERZO,7.99,100 ml,Cuidado del cabello,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7391733.jpg?t=20260304083126,Otros,,,2026-03-31 22:25:37
 6597,Tónico Facial con Aloe,KYREY,1.15,100 ml,Limpieza y desmaquilladores,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7163418.jpg?t=20260331080946,Limpieza del Hogar,,,2026-03-31 22:24:23
