@@ -4891,7 +4891,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 23620,Leche Desnatada Botella,CONSUM,1.47,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7344778.jpg?t=20260331081133,Otros,,,2026-03-31 22:25:22
 4747,Leche Desnatada Brik,PULEVA,1.1,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/172023.jpg?t=20260603075917,Otros,0.95,Ahora más barato,2026-06-10 23:26:09
 5124,Leche Desnatada Brik,ASTURIANA,1.13,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/735340.jpg?t=20260331080846,Otros,,,2026-03-31 22:24:10
-4684,Leche Desnatada Brik,PASCUAL,1.29,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/17525.jpg?t=20260812080128,Otros,1.15,Ahora más barato,2026-08-26 23:42:52
+4684,Leche Desnatada Brik,PASCUAL,1.29,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/17525.jpg?t=20260827095120,Otros,1.18,Ahora más barato,2026-09-25 00:09:10
 5933,Leche Desnatada Brik,CONSUM,0.84,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080612.jpg?t=20260331080920,Otros,,,2026-03-31 22:24:18
 30724,Leche Desnatada Brik,RIO,1.59,1 L,Desnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411635.jpg?t=20260226114114,Otros,,,2026-03-31 22:25:47
 32545,Leche Desnatada Sin Lactosa Proteína,PULEVA,1.49,1 L,Leches especiales,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7425957.jpg?t=20260331081330,Lacteos,,,2026-03-31 22:25:56
@@ -4903,7 +4903,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 23553,Leche Entera Botella,CONSUM,1.56,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7344773.jpg?t=20260331081133,Otros,,,2026-03-31 22:25:21
 4741,Leche Entera Brik,PULEVA,1.19,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/157388.jpg?t=20260603075912,Otros,1.09,Ahora más barato,2026-06-10 23:26:09
 5126,Leche Entera Brik,ASTURIANA,1.29,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/735423.jpg?t=20260331080846,Otros,,,2026-03-31 22:24:10
-4680,Leche Entera Brik,PASCUAL,1.39,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12559.jpg?t=20260812080128,Otros,1.29,Ahora más barato,2026-08-26 23:42:52
+4680,Leche Entera Brik,PASCUAL,1.39,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12559.jpg?t=20260827095115,Otros,1.31,Ahora más barato,2026-09-25 00:09:10
 5931,Leche Entera Brik,CONSUM,0.97,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080596.jpg?t=20260331080920,Otros,,,2026-03-31 22:24:18
 30766,Leche Entera Brik,RIO,1.75,1 L,Entera,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411643.jpg?t=20260331081241,Otros,,,2026-03-31 22:25:47
 7947,Leche Entera Ecológica Brik,PULEVA,1.55,1 L,Despensa,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7241011.jpg?t=20260226105929,Otros,,,2026-03-31 22:24:30
@@ -4930,7 +4930,7 @@ id,name,brand,last_price,unit_size,category,image_url,canonical_category,offer_p
 23554,Leche Semidesnatada Botella,CONSUM,1.5,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7344781.jpg?t=20260331081133,Otros,,,2026-03-31 22:25:21
 4753,Leche Semidesnatada Brik,PULEVA,1.13,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/176974.jpg?t=20260603075923,Otros,1.02,Ahora más barato,2026-06-10 23:26:09
 5125,Leche Semidesnatada Brik,ASTURIANA,1.17,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/735399.jpg?t=20260331080846,Otros,,,2026-03-31 22:24:10
-4679,Leche Semidesnatada Brik,PASCUAL,1.35,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12542.jpg?t=20260812080127,Otros,1.19,Ahora más barato,2026-08-26 23:42:52
+4679,Leche Semidesnatada Brik,PASCUAL,1.35,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/12542.jpg?t=20260827095114,Otros,1.22,Ahora más barato,2026-09-25 00:09:10
 5932,Leche Semidesnatada Brik,CONSUM,0.88,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7080604.jpg?t=20260331080920,Otros,,,2026-03-31 22:24:18
 30725,Leche Semidesnatada Brik,RIO,1.65,1 L,Semidesnatada,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7411648.jpg?t=20260331081241,Otros,,,2026-03-31 22:25:47
 6644,"Leche Semidesnatada Ecólogica, Brik",PULEVA,1.55,1 L,Despensa,https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7164643.jpg?t=20260226104734,Otros,,,2026-03-31 22:24:23
